@@ -1,0 +1,332 @@
+body {
+	text-align: center;
+	background-color: #E8E8E8;
+}
+p, h1, h2, h3{
+	line-height: 150%;
+	letter-spacing: 0.6px;
+	font-family: "Trebuchet MS", Helvetica, Geneva, Arial, sans-serif;
+}
+
+p{
+	font-size: 14px;	
+}
+
+#wrapper {
+	margin: auto;
+	padding: 0px;
+	width: 950px;
+	position: relative;
+	background-color: white;
+	text-align: left;
+}
+#breadImage {
+	margin: 10px;
+	padding: 0px;
+	float: right;
+	height: 316px;
+	width: 438px;
+}
+#header {
+	margin: 0px;
+	padding: 0px;
+	width: 950px;
+	background-color: #e2e7d3;
+	height: 235px;
+}
+
+#header img {
+	vertical-align: bottom;
+}
+
+#leftSide {
+	width: 635px;
+	float: left;
+	background-color: white;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin: 0px;
+	padding: 0 20px;
+	
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #000;
+}
+
+#sidebarTop {
+	float: right;
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+}
+#leftSidePhoto {
+	margin: 10px;
+	padding: 0px;
+	float: right;
+	height: 232px;
+	width: 200px;
+}
+
+#footer {
+	margin: 0px;
+	padding: 0.5em 0 1em 0;
+	width: 950px;
+	clear: both;
+	float: none;
+	background-color: #ff6666;
+	font-family: "Trebuchet MS", Helvetica, Geneva, Arial, sans-serif;
+	font-size: 80%;
+	color: #FFF;
+	text-align: center;
+}
+#sidebarBottom {
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+}
+.twoTreesName {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #759b46;
+}
+.testimonialName {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-variant: normal;
+	font-size: 85%;
+}
+h1 {
+	color: gray;
+	font-size: 200%;
+	font-weight: bold;
+}
+#navbar {
+	float: right;
+	width: 777px;
+	margin: 0px;
+	padding: 0px;
+	height: 188px;
+	background-color: white;
+}
+
+#navbar a {	
+	display: block;
+	font-size: 85%;
+	font-family: "Trebuchet MS", Helvetica, Geneva, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #500;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 40px 0;
+}
+
+#navbar a:hover,
+#navbar a:focus {
+	text-decoration: none;
+	color: #E8DB5A;
+}
+
+#navbar a.active {
+	background: transparent url(../images/bottle.png) no-repeat center center;
+	color: white;
+}
+
+#home {
+	position: absolute;
+	height: 90px;
+	width: 80px;
+	left: 225px;
+	top: 50px;
+}
+
+#project {
+	position: absolute;
+	height: 90px;
+	width: 80px;
+	left: 365px;
+	top: 50px;
+}
+#artwork {
+	position: absolute;
+	height: 90px;
+	width: 80px;
+	left: 505px;
+	top: 50px;
+}
+#research {
+	position: absolute;
+	height: 90px;
+	width: 80px;
+	left: 645px;
+	top: 50px;
+}
+#contact {
+	position: absolute;
+	height: 90px;
+	width: 80px;
+	left: 785px;
+	top: 50px;
+}
+
+#rightSide {
+	margin: 0px;
+	padding: 0px;
+	width: 240px;
+	float: right;
+	background-color: #f7f7f7;
+}
+#wrapper #header img {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+#wrapper #leftSide p #FlashID {
+	float: left;
+	padding: 0px;
+	margin: 10px;
+}
+#ProcessPageMain {
+	margin: 10px 20px;
+	width: 910px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Helvetica, Geneva, Arial, sans-serif;
+	font-size: 100%;
+}
+#wrapper #ProcessPageMain p {
+
+}
+#wrapper #ProcessPageMain p #FlashID {
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+}
+#leftSidePhoto2 {
+	padding: 0px;
+	float: left;
+	height: 289px;
+	width: 400px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 105px;
+}
+#wrapper #PageMain {
+	margin: 10px;
+	padding: 0px;
+	width: 930px;
+}
+#wrapper #PageMain p {
+	list-style-image: none;
+	list-style-type: none;
+	margin: 20px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Helvetica, Geneva, Arial, sans-serif;
+	font-size: 100%;
+}
+#wrapper #PageMain ul li {
+	font-family: "Trebuchet MS", Helvetica, Geneva, Arial, sans-serif;
+	font-size: 100%;
+}
+
+.cart .item {
+	margin-bottom: 1.5em;
+}
+
+.cart p {
+	color: #777;
+	margin: 0 0 0.5em;
+}
+
+.cart .info {
+	margin-bottom: 0.4em;
+}
+
+.cart .group {
+	margin-bottom: 0.5em;
+}
+
+.cart #results {
+	font-size: 93%;
+	color: #777;
+}
+
+#HomepageFont {
+	margin: 50px 100px;
+	color: gray;
+}
+
+#HomepageFont h1 {
+	
+}
+
+#HomepageFont p {
+	text-align: left;
+}
+.me{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 3px;
+	padding-left: 20px;
+}
+
+/* project*/
+
+.project{
+	padding: 5px 0;
+	height: 180px;
+	border-bottom: 1px solid #E8E8E8;
+}
+.project:hover{
+	background-color: #FFFCCC; 
+}
+
+.project h3{
+	line-height: 100%;
+}
+.picture{
+	float: left;
+	margin-top: 20px;
+}
+.picture img{
+	width: 100px;
+	height: 140px;
+}
+.description{
+	width: 550px;
+	float: left;
+	margin-left: 30px;
+}
+
+/*-----Research ---*/
+
+#ProcessPageMain a:link {
+	color: #500;
+	text-decoration: none;
+}
+#ProcessPageMain a:visited {
+	text-decoration: none;
+	color: #500;
+}
+#ProcessPageMain a:hover {
+	text-decoration: underline;
+	color: #FC6;
+}
+#ProcessPageMain a:active {
+	text-decoration: none;
+	color: #FC6;
+}
+
+#email{
+	margin-left: 750px;
+}
+#ProcessPageMain object{
+	margin-left: 20px;
+}
