@@ -6,23 +6,24 @@
 <title>Xinxin - Home</title>
 <link href="css/css.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-ico">
-
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
 <style type="text/css">
+
 a:link {
-	text-decoration: none;
-	color: #a8c686;
+  text-decoration: none;
+  color: #FFF;
 }
 a:visited {
-	text-decoration: none;
-	color: #FFF;
+  text-decoration: none;
+  color: #FFF;
 }
 a:hover {
-	text-decoration: underline;
-	color: #FC6;
+  text-decoration: none;
+  color: #FFF;
 }
 a:active {
-	text-decoration: none;
-	color: #FC6;
+  text-decoration: none;
+  color: #FFF;
 }
 </style>
 <!--The following line of code is to add the custom olive favicon to web browsers -->
@@ -31,21 +32,27 @@ a:active {
 <body>
 <div id="wrapper">
   <div id="header">
+    <div class="line"></div>
+    <div class="line1"></div>
     <div id="navbar">
-      <div id="home"><a href="index.html" class="active">Home</a></div>
-      <div id="project"><a href="project.html">Project</a></div>
-      <div id="artwork"><a href="artwork.html">Artwork</a></div>
-      <div id="research"><a href="research.html">Research</a></div>
-      <div id="contact"><a href="contact.html">Contact</a></div>
+      <div id="home"><a href="index.html" class="active scale">About</a></div>
+      <div id="uxwork"><a href="uxwork.html" class="inactive hover">UXwork</a></div>
+      <div id="artwork"><a href="artwork.html" class="inactive hover">ARTwork</a></div>
+      <div id="resume"><a href="resume.html" class="inactive hover">Resume</a></div>
     </div>
-      <img src="images/logo.png" width="173" height="188" alt="logo" /><img src="images/header_lower.gif" width="950" height="47" alt="header_lower" /></div>
+  </div>
   
   <div id="ProcessPageMain">
+    <div id="HomeImage">
+      <div id="image_1"></div>
+      <div id="image_2"></div>
+      <div id="image_0"></div>
+    </div>
     <div id="HomepageFont">
       <img src="images/me.jpg" class = "me"/>
       <h1>My name is Xinxin He.</h1>
       <p>I am a UX designer and web programmer.</p>
-      <p>I'm currently completing my Master's degree in Human-Computer Interaction at Indiana University, Purdue University, Indianapolis. I got a bachelr degree ion Software Engineering and a minor in art design during my undergraduate study at Beihang University.</p>
+      <p>I'm currently completing my Master's degree in Human-Computer Interaction at Indiana University, Purdue University, Indianapolis. I got a bachelor degree in Software Engineering and a minor in art design during my undergraduate study at Beihang University.</p>
       <p>I'm especially interested in designing and exploring web interactions - sketch, study, prototype, and test them. Establishing behaviors with technologies is another topic that attracts me. Currently, part of my research is to study how users establish their habits with apps.</p>
       </br>
       </br>
@@ -54,6 +61,31 @@ a:active {
 
   <div id="footer"><a href="index.html">home</a> | <a href="project.html">project</a> | <a href="artwork.html">artwork</a> | <a href="research.html">research</a> | <a href="contact.html">contact</a></div>
 </div>
+<script type="text/javascript">
+  window.requestAnimationFrame = window.requestAnimationFrame
+    ||window.mozRequestAnimationFrame
+    ||window.webkitRequestAnimationFrame
+    ||window.msRequestAnimationFrame
+    ||function(f){setTimeout(f, 1000/60);}
+    var image1 = document.getElementById('image_1');
+      var scrollheight = document.body.scrollHeight;
+      var windowheight = window.innerHeight;
+
+    function parallaximage(){
+      var scrolltop = window.pageYOffset;
+      var scrollamount = (scrolltop/(scrollheight - windowheight)) * 100;
+      image1.style.left = -100 + scrollamount + '%';
+    }
+    window.addEventListener('scroll',function(){
+      requestAnimationFrame(parallaximage)
+    }, false);
+
+    window.addEventListener('resize', function(){
+      var scrolltop = window.pageYOffset;
+      var scrollamount = (scrolltop / (scrollheight - windowheight))*100;
+      image1.style.left = -100 + scrollamount + '%';
+    })
+</script>
 </body>
 
 </html>
