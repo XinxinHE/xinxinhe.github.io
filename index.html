@@ -1,91 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Xinxin He</title>
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font.css">
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Xinxin - Home</title>
-<link href="css/css.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-ico">
-<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-<style type="text/css">
+  </head>
 
-a:link {
-  text-decoration: none;
-  color: #FFF;
-}
-a:visited {
-  text-decoration: none;
-  color: #FFF;
-}
-a:hover {
-  text-decoration: none;
-  color: #FFF;
-}
-a:active {
-  text-decoration: none;
-  color: #FFF;
-}
-</style>
-<!--The following line of code is to add the custom olive favicon to web browsers -->
-</head>
+  <body>
+      <header>
+        <div class="container">
+          <div class="row">
 
-<body>
-<div id="wrapper">
-  <div id="header">
-    <div class="line"></div>
-    <div class="line1"></div>
-    <div id="navbar">
-      <div id="home"><a href="index.html" class="active scale">About</a></div>
-      <div id="uxwork"><a href="uxwork.html" class="inactive hover">UXwork</a></div>
-      <div id="artwork"><a href="artwork.html" class="inactive hover">ARTwork</a></div>
-      <div id="resume"><a href="resume.html" class="inactive hover">Resume</a></div>
-    </div>
-  </div>
-  
-  <div id="ProcessPageMain">
-    <div id="HomeImage">
-      <div id="image_1"></div>
-      <div id="image_2"></div>
-      <div id="image_0"></div>
-    </div>
-    <div id="HomepageFont">
-      <img src="images/me.jpg" class = "me"/>
-      <h1>My name is Xinxin He.</h1>
-      <p>I am a UX designer and web programmer.</p>
-      <p>I'm currently completing my Master's degree in Human-Computer Interaction at Indiana University, Purdue University, Indianapolis. I got a bachelor degree in Software Engineering and a minor in art design during my undergraduate study at Beihang University.</p>
-      <p>I'm especially interested in designing and exploring web interactions - sketch, study, prototype, and test them. Establishing behaviors with technologies is another topic that attracts me. Currently, part of my research is to study how users establish their habits with apps.</p>
-      </br>
-      </br>
-    </div>
-  </div>
+            <div class="col-md-5">
+              <a class="nav-logo" href="index.html">Xinxin He</a>
+            </div>
 
-  <div id="footer"><a href="index.html">home</a> | <a href="project.html">project</a> | <a href="artwork.html">artwork</a> | <a href="research.html">research</a> | <a href="contact.html">contact</a></div>
-</div>
-<script type="text/javascript">
-  window.requestAnimationFrame = window.requestAnimationFrame
-    ||window.mozRequestAnimationFrame
-    ||window.webkitRequestAnimationFrame
-    ||window.msRequestAnimationFrame
-    ||function(f){setTimeout(f, 1000/60);}
-    var image1 = document.getElementById('image_1');
-      var scrollheight = document.body.scrollHeight;
-      var windowheight = window.innerHeight;
+            <div class="col-md-7">
+                <ul class="nav-nav">
+                  <li><a href="index.html">ABOUT</a></li>
+                  <li><a href="uxdesign.html">UXDESIGN</a></li>
+                  <li><a href="artwork.html">ARTWORK</a></li>
+                  <li><a href="sources\Xinxin_Resume.pdf" target="_blank">RESUME</a></li>
+                </ul>
+            </div>
 
-    function parallaximage(){
-      var scrolltop = window.pageYOffset;
-      var scrollamount = (scrolltop/(scrollheight - windowheight)) * 100;
-      image1.style.left = -100 + scrollamount + '%';
-    }
-    window.addEventListener('scroll',function(){
-      requestAnimationFrame(parallaximage)
-    }, false);
+          </div>
+        </div>
+      </header>
 
-    window.addEventListener('resize', function(){
-      var scrolltop = window.pageYOffset;
-      var scrollamount = (scrolltop / (scrollheight - windowheight))*100;
-      image1.style.left = -100 + scrollamount + '%';
-    })
-</script>
-</body>
+      <section>
+        <div class="intro">
+          <img src="images/intro.png" alt="" />
+        </div>
 
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 skill">
+              <h1>A LITTLE ABOUT ME</h1>
+              <p>My name is Xinxin He. I got a bachelor in software engineering at Beihang University,
+                and a master degree in Human-Computer Interaction at Indiana University - Purdue University, Indianapolis.
+                I'm working as a System Analyst at Telamon Corporation right now, designing business process
+                solutions for our clients.</p><br>
+
+              <p>I am a sketch-driven designer. Sketching out whatever ideas, scenarios, workflows, modules, relations
+                at first can help me get a great overview of what I am going to head to and. Furthermore, sketching is also
+                an efficient and enjoyable skill to facilitate communications with other people. Besides that, I also love the process of
+                converting user requirements into working demos,iterating and refining them until "Perfect".
+              </p>
+            </div>
+
+            <div class="col-xs-12 skill">
+              <h1>MY VALUED SKILLS</h1>
+              <p>Sketching</p>
+              <p>Prototyping</p>
+              <p>Workflowing</p>
+              <p>Creative Design</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <ul class="col-md-12 footer-nav">
+              <li><a href="index.html">ABOUT</a></li>
+              <li><a href="uxdesign.html">UXDESIGN</a></li>
+              <li><a href="artwork.html">ARTWORK</a></li>
+              <li><a href="sources\Xinxin_Resume.pdf" target="_blank">RESUME</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script src="js/myjs.js"></script>
+  </body>
 </html>

@@ -1,0 +1,74 @@
+body{
+  background-color: #FFFFCC;
+  margin: 0 0;
+}
+textarea {
+  font:100% monospace;
+  resize: none;
+  white-space: pre;
+  overflow-y: scroll;
+}
+p{
+  margin: 5px 0px;
+  font-family: verdana;
+}
+.logo{
+  margin:0 0;
+  float: left;
+  font-family: verdana;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  padding: 12px 70px;
+}
+.header{
+  margin: 0 auto 5px;
+  padding-bottom: 5px;
+  height:50px;
+  background-color: #99cccc;
+}
+.left p{
+  float: left;
+}
+.main{
+  width:950px;
+  height:800px;
+  margin:0 auto;
+}
+.colorSpace{
+  background-color: white;
+  padding: 0 8px;
+  color: white;
+}
+.outputColor{
+  width: 600px;
+  height: 550px;
+  float: left;
+  border-style: groove;
+  background-color: white;
+}
+.outputLetter{
+  border-style: groove;
+}
+
+.pickColor{
+  width: 20px;
+  height: 20px;
+}
+.left{
+  float: left;
+  margin: 5px 5px;
+  width:640px;
+}
+.right{
+  float: left;
+  margin:5px 5px;
+  width:290px;
+}
+#print{
+  float:right;
+  margin: 20px 325px;
+}
+.btn{
+  margin: 10px 2px;
+}

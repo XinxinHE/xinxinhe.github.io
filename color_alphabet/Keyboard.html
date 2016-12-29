@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ColorTyping</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="Keyboard.js"></script>
+  <style media="print">
+    .keyboard, #print, p, .header{display: none;}
+    body{background-color: white;}
+    .outputColor{border-style: none;}
+  </style>
+</head>
+
+<body>
+
+<div class="header">
+  <p class="logo">PatternTyping</p>
+  <button id="print">save</button>
+</div>
+
+<div class="main">
+
+  <div class="left">
+    <p>Color </p>
+    <div class="outputColor" id="colorPanel"></div>
+  </div>
+
+  <div class="right">
+    <div>
+      <p>Text </p>
+      <textarea class="outputLetter" id="letterPanel" cols="28" rows="20" spellcheck="false">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbaaaaaaaaaaaaaaaaaaaacccdddedaaaaaaaaaaaaaaaaaaaaacdcddddedddaaaaaaaaaaaaaaaaaaacdcdddddcdddaaaaaaaaaaaaaaaaaacdccdddcccaaaaaaaaaaaaaaaaaaaaccddddddddaaaaaaaaaaaaaaaaaaaaaaddddddddaaaaaaaaaaaaaaaaaaaaabbbfbbbbaaaaaaaaaaaaaaaaaaaaabbbbfbbbfbbaaaaaaaaaaaaaaaaaabbbbbfffffbbbbaaaaaaaaaaaaaaaaddbbfffffffbddaaaaaaaaaaaaaaaadddffhfffhfdddaaaaaaaaaaaaaaaaddfffffffffaddaaaaaaaaaaaaaaaaaafffffffffaaaaaaaaaaaaaaaaaaaaaafffaafffaaaaaaaaaaaaaaaaaaaaaafffaafffaaaaaaaaaaaaaaaaaaaaaacccaacccaaaaaaaaaaaaaaaaaaaaaccccaaccccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+			</textarea>
+    </div>
+
+    <div class="keyboard">
+
+      <p>keyboard</p>
+
+      <div class="line1">
+          <button class="btn" value="a">a</button>
+          <button class="btn" value="b">b</button>
+          <button class="btn" value="c">c</button>
+          <button class="btn" value="d">d</button>
+          <button class="btn" value="e">e</button>
+          <button class="btn" value="f">f</button>
+          <button class="btn" value="g">g</button>
+          <button class="btn" value="h">h</button>
+          <button class="btn" value="i">i</button>
+
+
+          <div>
+            <input id="a" type="color" class="pickColor">
+            <input id="b" type="color" class="pickColor">
+            <input id="c" type="color" class="pickColor">
+            <input id="d" type="color" class="pickColor">
+            <input id="e" type="color" class="pickColor">
+            <input id="f" type="color" class="pickColor">
+            <input id="g" type="color" class="pickColor">
+            <input id="h" type="color" class="pickColor">
+            <input id="i" type="color" class="pickColor">
+          </div>
+      </div>
+
+      <div class="line2">
+        <button class="btn" value="j">j</button>
+        <button class="btn" value="k">k</button>
+        <button class="btn" value="l">l</button>
+        <button class="btn" value="m">m</button>
+        <button class="btn" value="n">n</button>
+        <button class="btn" value="o">o</button>
+        <button class="btn" value="p">p</button>
+        <button class="btn" value="q">q</button>
+        <button class="btn" value="r">r</button>
+
+
+        <div>
+          <input id="j" type="color" class="pickColor">
+          <input id="k" type="color" class="pickColor">
+          <input id="l" type="color" class="pickColor">
+          <input id="m" type="color" class="pickColor">
+          <input id="n" type="color" class="pickColor">
+          <input id="o" type="color" class="pickColor">
+          <input id="p" type="color" class="pickColor">
+          <input id="q" type="color" class="pickColor">
+          <input id="r" type="color" class="pickColor">
+
+        </div>
+      </div>
+
+      <div div="line3">
+        <button class="btn" value="s">s</button>
+        <button class="btn" value="t">t</button>
+        <button class="btn" value="u">u</button>
+        <button class="btn" value="v">v</button>
+        <button class="btn" value="w">w</button>
+        <button class="btn" value="x">x</button>
+        <button class="btn" value="y">y</button>
+        <button class="btn" value="z">z</button>
+
+        <div>
+          <input id="s" type="color" class="pickColor">
+          <input id="t" type="color" class="pickColor">
+          <input id="u" type="color" class="pickColor">
+          <input id="v" type="color" class="pickColor">
+          <input id="w" type="color" class="pickColor">
+          <input id="x" type="color" class="pickColor">
+          <input id="y" type="color" class="pickColor">
+          <input id="z" type="color" class="pickColor">
+        </div>
+      </div>
+
+      <div class="line4">
+        	<button class="btn" value=" ">Space</button>
+          <button class="btn" value="/">Enter</button>
+      </div>
+  </div>
+  </div>
+</div>
+<link rel="stylesheet" type="text/css" href="Keyboard.css">
+</body>
+</html>
