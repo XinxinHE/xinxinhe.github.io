@@ -234,21 +234,26 @@ section{
 	background-color: #5ca555;
 }
 
-.font-size-16 p{
+.font-size-16 p {
   font-size: 16px;
 }
 
-.white-bg{
+.white-bg {
   background-color: white;
 }
 
-.list-style ul{
+.list-style ul {
   font-size: 14px;
 	list-style-type: none;
 }
-.slick-slider{
+.slick-slider {
 	width: 100%;
 }
-.gray-bg{
+.gray-bg {
 	background-color: #b7b7b7;
+}
+.demo-button {
+	padding: 6px 10px 4px;
+	background-color: #fff457;
+	border-radius: 5px;
 }
