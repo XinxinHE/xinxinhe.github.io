@@ -240,6 +240,10 @@ section{
 	background-color: #903838;
 }
 
+.topnews-cover-bg{
+	color: white;
+	background-color: #5c6bc0;
+}
 .font-size-16 p {
   font-size: 16px;
 }
@@ -249,8 +253,12 @@ section{
 }
 
 .list-style ul {
-  font-size: 14px;
+  font-size: 16px;
 	list-style-type: none;
+}
+
+.text-left {
+  text-align: left;
 }
 .slick-slider {
 	width: 100%;
